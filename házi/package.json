@@ -1,0 +1,15 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "A library management system built with TypeScript.",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
