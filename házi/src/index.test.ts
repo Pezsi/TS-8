@@ -16,5 +16,5 @@ describe('Library', () => {
     expect(books).toContain(book);
   });
 
-  // Írjon további teszteket a többi metódusra...
+  // Írj további teszteket a többi metódusra...
 });

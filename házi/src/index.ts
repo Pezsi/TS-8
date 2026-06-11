@@ -21,7 +21,7 @@ const book2: Book = {
   id: 2, 
   title: "War and Peace", 
   author: "Leo Tolstoy", 
-  category: fictionCategory // Esetleg másik kategória példányát is használhatnánk
+  category: nonFictionCategory // Esetleg másik kategória példányát is használhatnánk
 };
 
 // Kölcsönzők létrehozása

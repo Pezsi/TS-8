@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\babenyecz.balint\\\\OneDrive - Cardnet Zrt\\\\mindenes\\\\oktatás\\\\TS-8\\\\vizsga\\\\src\\\\models\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\babenyecz.balint\\\\OneDrive - Cardnet Zrt\\\\mindenes\\\\oktatás\\\\TS-8\\\\vizsga\\\\src\\\\services\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\babenyecz.balint\\\\OneDrive - Cardnet Zrt\\\\mindenes\\\\oktatás\\\\TS-8\\\\vizsga\\\\src\\\\utils\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\babenyecz.balint\\\\OneDrive - Cardnet Zrt\\\\mindenes\\\\oktatás\\\\TS-8\\\\vizsga\\\\src\\\\decorators\")",
+      "Bash(npm install:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(npx jest:*)"
+    ]
+  }
+}

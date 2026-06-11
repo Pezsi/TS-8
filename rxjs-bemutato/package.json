@@ -1,0 +1,23 @@
+{
+  "name": "rxjs-bemutato",
+  "version": "1.0.0",
+  "description": "RxJS bemutató projekt magyar magyarázatokkal - az alapoktól a komplexebb megoldásokig",
+  "scripts": {
+    "01": "npx ts-node src/01-alapok.ts",
+    "02": "npx ts-node src/02-letrehozo-operatorok.ts",
+    "03": "npx ts-node src/03-atalakito-operatorok.ts",
+    "04": "npx ts-node src/04-szuro-operatorok.ts",
+    "05": "npx ts-node src/05-kombinalo-operatorok.ts",
+    "06": "npx ts-node src/06-subjects.ts",
+    "07": "npx ts-node src/07-hibakezeles.ts",
+    "08": "npx ts-node src/08-komplex-peldak.ts",
+    "all": "npx ts-node src/01-alapok.ts && npx ts-node src/02-letrehozo-operatorok.ts && npx ts-node src/03-atalakito-operatorok.ts && npx ts-node src/04-szuro-operatorok.ts && npx ts-node src/05-kombinalo-operatorok.ts && npx ts-node src/06-subjects.ts && npx ts-node src/07-hibakezeles.ts && npx ts-node src/08-komplex-peldak.ts"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

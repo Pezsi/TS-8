@@ -4,7 +4,8 @@
   "description": "A library management system built with TypeScript.",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "build":"tsc"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
