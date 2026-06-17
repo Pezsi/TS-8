@@ -1,0 +1,19 @@
+{
+  "name": "nativescript-alapok",
+  "version": "1.0.0",
+  "description": "NativeScript oktato projekt - a mobilfejlesztes TypeScript-tel",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "ios": "ns run ios",
+    "android": "ns run android",
+    "clean": "ns clean"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.6.0"
+  },
+  "devDependencies": {
+    "@nativescript/types": "~8.6.0",
+    "typescript": "~5.3.3"
+  }
+}

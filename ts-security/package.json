@@ -1,0 +1,27 @@
+{
+  "name": "ts-security",
+  "version": "1.0.0",
+  "description": "TypeScript Security oktato projekt - tipikus biztonsagi problemak es megoldasok",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/05-api-biztonsag.ts",
+    "dev": "nodemon --exec ts-node src/05-api-biztonsag.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.0.2"
+  }
+}
